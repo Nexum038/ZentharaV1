@@ -4,6 +4,7 @@ import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
+import net.dv8tion.jda.api.requests.GatewayIntent;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -26,7 +27,9 @@ public class DiscordPlugin {
             return;
         }
         try {
-            discord = JDABuilder.createDefault(Constants.TOKEN).build();
+            discord = JDABuilder.createDefault(Constants.TOKEN)
+                    .enableIntents(GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_MESSAGES)
+                    .build();
             discord.addEventListener(new BotListener());
             discord.getPresence().setActivity(Activity.playing("Tarnish"));
         } catch (Exception e) {
