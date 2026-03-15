@@ -469,7 +469,7 @@ public class PlayerCommandPlugin extends CommandExtension {
             }
         });
 
-        commands.add(new Command("dr", "droprate, dropratez") {
+        commands.add(new Command("dr", "droprate, droprate789") {
             @Override
             public void execute(Player player, CommandParser parser) {
                 double petBonus = player.pet != null ? PetData.forNpc(player.pet.id).map(PetData::getDropRateBonus).orElse(0.0) : 0.0;
