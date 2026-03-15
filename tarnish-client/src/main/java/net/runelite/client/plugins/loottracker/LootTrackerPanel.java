@@ -359,7 +359,7 @@ public class LootTrackerPanel extends PluginPanel {
                 }
                 dim.width = Math.max(dim.width, rowW);
                 dim.height += rowH + ins.top + ins.bottom + getVgap() * 2;
-                return dim; //789
+                return dim;
             }
         }
     }
