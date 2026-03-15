@@ -67,7 +67,7 @@ forum_db_user = "osroyjs_game"
 forum_db_pass = "dJ$&38mGEsTB"
 
 [discord]
-token = "MTA0ODgxMjIxOTIxMjc2NzI0Mw.GI_zO7.IG56uU2cqwDnh-6pnYGM33sdZHcE1lsoQTmNQk"
+token = "MTQ4Mjg2NTE5OTQyNDg2NDUwNg.GYLX1Y.Tk_II620Nsj0cmHSbxhm4IU2JzXNhftZA7sglc"
 
 [postgre]
 postgre_url = ""
