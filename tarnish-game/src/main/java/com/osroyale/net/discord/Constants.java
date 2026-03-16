@@ -14,5 +14,5 @@ public class Constants {
     public static String EVENTS_CHANNEL = "1002695649642426419";
     public static String LEVELS_CHANNEL = "1047582983017730133";
     public static String ANNOUNCEMENT_CHANNEL = "1002695332930535494";
-    public static String TEST_CHANNEL = "1482868597511557272"; //789
+    public static String TEST_CHANNEL = "1482868597511557272";
 }

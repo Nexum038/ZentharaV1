@@ -42,9 +42,9 @@ public class DiscordPlugin {
         return discord;
     }
 
-    public static void sendSimpleMessage(String message) {
+    public static void sendSimpleMessage(String message) { //789f
         if (discord == null) {
-            System.out.println("discord error: discord is null.");
+            System.out.println("discord error: discord is nulll.");
             return;
         }
         discord.getTextChannelById(Constants.EVENTS_CHANNEL).sendMessage(message).queue();
